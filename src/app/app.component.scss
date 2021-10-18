@@ -1,0 +1,19 @@
+.container-container {
+	display: flex;
+
+  .item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid #ccc;
+
+    .item {
+      padding: 1rem;
+      background: #999;
+      border: 1px solid #333;
+      width: 100%;
+    }
+  }
+}
